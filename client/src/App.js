@@ -36,9 +36,12 @@ function App() {
         }
     }catch(error) {
       console.log("error bro,fix this fast",error);
+      
     }
   }
   
+//after this make a file config.js and add the contract transaction hash
+// export const twittercontract address  = '';
   
   return (
     <div className='App'>
