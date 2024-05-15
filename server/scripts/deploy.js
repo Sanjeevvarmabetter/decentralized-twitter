@@ -4,7 +4,8 @@ const main = async () => {
   const contractFactory = await ethers.getContractFactory("TwitterContract");
   const contract = await contractFactory.deploy();
 
-  console.log("Contract Deployed to:", contract.address);
+  console.log("Contract Deployed to:", contract);
+  console.log("Contract address: ", contract.address);
 };
 
 const runMain = async () => {
@@ -16,5 +17,5 @@ const runMain = async () => {
     process.exit(1);
   }
 };
-f
+
 runMain();
